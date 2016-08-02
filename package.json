@@ -1,10 +1,10 @@
 {
   "name": "lyric-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    // "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +20,18 @@
   },
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raylwalters/Walters_Lab21.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/raylwalters/Walters_Lab21/issues"
+  },
+  "homepage": "https://github.com/raylwalters/Walters_Lab21#readme",
+  "description": ""
 }
